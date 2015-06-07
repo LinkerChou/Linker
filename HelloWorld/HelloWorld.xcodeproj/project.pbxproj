@@ -15,7 +15,6 @@
 		6301C2621B2481830046DCDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6301C2601B2481830046DCDC /* LaunchScreen.xib */; };
 		6301C26E1B2481830046DCDC /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301C26D1B2481830046DCDC /* HelloWorldTests.m */; };
 		6301C27C1B2481BB0046DCDC /* TCPostToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301C2791B2481BB0046DCDC /* TCPostToolBar.m */; };
-		6301C27D1B2481BB0046DCDC /* TCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301C27B1B2481BB0046DCDC /* TCTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		6301C2781B2481BB0046DCDC /* TCPostToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPostToolBar.h; sourceTree = "<group>"; };
 		6301C2791B2481BB0046DCDC /* TCPostToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPostToolBar.m; sourceTree = "<group>"; };
 		6301C27A1B2481BB0046DCDC /* TCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTextView.h; sourceTree = "<group>"; };
-		6301C27B1B2481BB0046DCDC /* TCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTextView.m; sourceTree = "<group>"; };
 		6301C27E1B2481D10046DCDC /* TC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +132,6 @@
 				6301C27E1B2481D10046DCDC /* TC.h */,
 				6301C2791B2481BB0046DCDC /* TCPostToolBar.m */,
 				6301C27A1B2481BB0046DCDC /* TCTextView.h */,
-				6301C27B1B2481BB0046DCDC /* TCTextView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,7 +239,6 @@
 				6301C25A1B2481830046DCDC /* ViewController.m in Sources */,
 				6301C2571B2481830046DCDC /* AppDelegate.m in Sources */,
 				6301C27C1B2481BB0046DCDC /* TCPostToolBar.m in Sources */,
-				6301C27D1B2481BB0046DCDC /* TCTextView.m in Sources */,
 				6301C2541B2481830046DCDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +436,7 @@
 				6301C2731B2481830046DCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6301C2741B2481830046DCDC /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +445,7 @@
 				6301C2761B2481830046DCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

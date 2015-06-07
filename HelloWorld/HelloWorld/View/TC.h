@@ -9,23 +9,6 @@
 http://pic.qiushibaike.com/system/avtnew/1237/12376620/medium/20150221080703.jpg
 http://pic.qiushibaike.com/system/avtnew/900/9003121/medium/20150316145210.jpg
 
-http://pic.qiushibaike.com/system/avtnew/（用户UID前去掉后4位）/用户ID/medium/头像序号（icon）.jpg
-
-//段子图片
-http://pic.qiushibaike.com/system/pictures/10305/103052428/medium/app103052428.jpg
-http://pic.qiushibaike.com/system/pictures/10306/103062850/medium/app103062850.jpg
-
-http://pic.qiushibaike.com/system/pictures/段子id去掉后4位/段子id/medium/image对应的内容（app+段子ID）
-#import<Foundation/Foundation.h>
-投稿文字 + 图片
-http://m2.qiushibaike.com/article/create
-参数
-json:json	{"image_height":723,"image_width":600,"screen_width":640,"content":"唐僧及其小分队~","anonymous":true,"image_type":"JPG","screen_height":1136,"allow_comment":true}
-image :image.jpg
-{
-    Size	55.51 KB (56841 bytes)
-    Content-Type	image/jpg
-}
 
 /*
  *--ixhan-dot-com

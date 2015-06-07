@@ -30,13 +30,7 @@
  *  @param imageName  按钮图片
  *  @param buttonType 按钮类型
  */
-- (void)addButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
-{
-    UIButton *button = [[UIButton alloc] init];
-    button.tag = buttonType;
-    [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:button];
+- (void)Subview:button];
 }
 /**
  *  点击按钮
@@ -53,7 +47,43 @@
     [super layoutSubviews];
     
     NSUInteger count = self.subviews.count;
-    CGFloat buttonW = self.width / count;
+    CGFloat buttaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+    {
+        UIButton *button = [[UIButton alloc] init];
+        button.tag = buttonType;
+        [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+        [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        [self addaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+        {
+            UIButton *button = [[UIButton alloc] init];
+            button.tag = buttonType;
+            [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+            [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+            [self addaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+            {
+                UIButton *button = [[UIButton alloc] init];
+                button.tag = buttonType;
+                [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+                [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+                [self addaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+                {
+                    UIButton *button = [[UIButton alloc] init];
+                    button.tag = buttonType;
+                    [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+                    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+                    [self addaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+                    {
+                        UIButton *button = [[UIButton alloc] init];
+                        button.tag = buttonType;
+                        [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+                        [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+                        [self addaddButtonWithImageName:(NSString *)imageName buttonType:(TCPostToolBarButtonType)buttonType
+                        {
+                            UIButton *button = [[UIButton alloc] init];
+                            button.tag = buttonType;
+                            [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+                            [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+                            [self addonW = self.width / count;
     CGFloat buttonH = self.height;
     for (int i = 0; i < count; i++) {
         UIButton *button = self.subviews[i];
